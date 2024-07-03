@@ -1,0 +1,12 @@
+- type: Platinum
+  sponsors:
+    - logo: mnemonic.png
+      name: Mnemonic
+      url: https://www.mnemonic.no/
+- type: Silver
+  sponsors:
+    - logo: gurusoft.png
+      name: Gurusoft
+      url: https://www.gurusoft.no/
+
+
