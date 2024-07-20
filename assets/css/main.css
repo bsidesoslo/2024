@@ -9,7 +9,7 @@ body {
   width: 100vw;
   height: 100vh;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, li {
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -57,4 +57,21 @@ a:hover {
 .sponsors .Silver a {
   height: 100px;
   width: 175px;
+}
+
+/* Footer */
+
+footer ul{
+  color: #000;
+  list-style: none;
+
+}
+
+footer a, footer a:hover, footer a:active{
+  color: #000;
+}
+
+footer li{
+  display: inline;
+  padding: 0.5em 1em;
 }
