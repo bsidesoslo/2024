@@ -8,5 +8,12 @@
     - logo: gurusoft.png
       name: Gurusoft
       url: https://www.gurusoft.no/
-
+    - logo: advisense.png
+      name: Advisense
+      url: https://www.advisense.com
+- type: Community
+  sponsors:
+    - logo: o3c.png
+      name: O3 Cyber
+      url: https://o3c.no
 
