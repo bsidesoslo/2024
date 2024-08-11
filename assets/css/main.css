@@ -8,7 +8,10 @@ div.front {
   margin-top: 4em;
 }
 div.front img {
-  width: 500px;
+  max-width: 500px;
+  width: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 h1, h2, h3, h4, li {
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -80,4 +83,24 @@ footer a, footer a:hover, footer a:active{
 footer li{
   display: inline;
   padding: 0.5em 1em;
+}
+
+@media screen and (max-width: 600px) {
+  div.front img {
+    max-width: 300px;
+  }
+  .sponsors .Platinum a {
+    height: 120px;
+    width: 300px;
+  }
+  .sponsors .Silver a {
+    height: 90px;
+    width: 155px;
+  }
+  
+  .sponsors .Community a {
+    height: 65px;
+    width: 90px;
+  }
+  
 }
