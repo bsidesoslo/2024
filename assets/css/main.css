@@ -89,7 +89,6 @@ a:hover {
 
 .program {
   width: 100%;
-  background-color: #ddd;
   padding: 2em 2em;
 }
 
@@ -109,12 +108,15 @@ footer {
 footer ul{
   color: #000;
   list-style: none;
-  background-color: #ddd;
+  background-color: #e5e5e5;
   padding: 1em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
 
+section:nth-child(2n) {
+  background-color: #e5e5e5;
 }
 
 footer a, footer a:hover, footer a:active{
@@ -124,6 +126,29 @@ footer a, footer a:hover, footer a:active{
 footer li{
   display: inline;
   padding: 0.5em 1em;
+}
+
+header {
+  background-color: #444;
+  padding: 1em;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.pageContent {
+  margin: 1em;
 }
 
 @media screen and (max-width: 600px) {
