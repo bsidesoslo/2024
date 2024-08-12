@@ -130,7 +130,7 @@ footer li{
 
 header {
   background-color: rgb(54, 52, 53);
-  padding: 1em;
+  padding: 0.5em;
 }
 header nav {
   display: flex;
@@ -140,11 +140,22 @@ header nav {
 header nav a {
   color: #fff;
   text-decoration: none;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding: 0.5em;
 }
 header nav a:hover {
   text-decoration: underline;
+}
+header nav a.highlight {
+  color: #fff;
+  background-color: #2196F3;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;;
+}
+header nav a.highlight:hover {
+  text-decoration: none;
+  background-color: #64B5F6;
 }
 
 .pageContent {
