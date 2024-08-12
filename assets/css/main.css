@@ -115,7 +115,7 @@ footer ul{
   justify-content: center;
 }
 
-section:nth-child(2n) {
+.front section:nth-child(2n) {
   background-color: #e5e5e5;
 }
 
