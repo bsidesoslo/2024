@@ -1,7 +1,7 @@
 <section class="sponsors" id="sponsors">
 {% for sponsortype in site.data.sponsors %}
 	{% if sponsortype.sponsors %}
-  	<h3>{{ sponsortype.type }} sponsors</h3>
+  	<h3>{{ sponsortype.type }} sponsor{% if sponsortype.sponsors.size > 1 %}s{% endif %}</h3>
 	  <div class="{{ sponsortype.type }}">
 		{% assign sortedsponsors = sponsortype.sponsors | sort: 'name' %}
 		{% for sponsor in sortedsponsors %}
