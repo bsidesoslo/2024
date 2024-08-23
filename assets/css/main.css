@@ -71,6 +71,7 @@ a:hover {
   background-position: center center;
   flex-grow: 0;
   flex-shrink: 0;
+  margin: 1em;
 }
 .sponsors .Platinum a {
   height: 150px;

@@ -11,6 +11,9 @@
     - logo: advisense.png
       name: Advisense
       url: https://www.advisense.com
+#    - logo: turtlesec.png
+#      name: TurtleSec
+#      url: https://turtlesec.no/
 - type: Community
   sponsors:
     - logo: o3c.png

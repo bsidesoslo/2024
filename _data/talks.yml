@@ -33,6 +33,7 @@
   title: SSH authentication using user and machine identities
   abstract: |
     Strong authentication requires multiple signals: identity claims proves that identity of the person, while device attestation proves possession of a given machine, and device bound keys prevent the key from being stolen.
+    
     In this presentation we will take a look at how the TPM provides device attestation and device bound keys. We will connect this with identity claims from SSO providers to provide a centrally managed short-lived SSH certificates for users and their devices.
     This is implemented as an open-source project called "ssh-tpm-ca-authority".
   duration: 45
@@ -48,8 +49,11 @@
   title: "The Law of Jante (janteloven) in Cybersecurity - Breaking the myth of America's superiority over Norway"
   abstract: |
     I have always been taught to think America is where you need to look to for the latest and greatest in technology and cybersecurity.
+    
     "The biggest successes all comes from America! That is where the big money and bleeding edge tech comes from, and where the most innovative people and workplaces are!"
+    
     Having lived and worked among New Yorkers and visited over 30 states last 7 years I have realized the important but sometimes subtle differences in IT and cybersecurity between Norway (or even the Nordics) and USA. I want to present some key observations I have made where the Norwegian way really is superior and how we should utilize that advantage in cybersecurity, in addition to balancing it out with some lessons learned on areas we could improve. The main point is none the less that Norway might just be more of a cybersecurity nation than we have allowed ourselves to believe.
+    
     Lets break the myth that Norwegian cybersec is inferior to American!
   duration: 20
 - name: Karim El-Melhaoui
@@ -58,10 +62,14 @@
   title: "Post-compromise: Uncovering Clouds and Assessing at Lightning Speed"
   abstract: |
     In the aftermath of a major cyber incident, we faced an unexpected challenge: uncovering and securing cloud environments scattered across the organization. This talk shares the journey of discovery, assessment, and governance implementation for four different cloud providers during a post-compromise rebuild.
+    
     We'll detail how we leveraged Python, PowerShell, REST APIs, and even duct tape to:
+    
     * Identify shadow cloud subscriptions while only having a out of band environment
     * Rapidly assess security postures across multiple cloud platforms
-    * Implementing a minimal viable architecture and governanceSpeed was of the essence. We'll discuss the tools, techniques, and improvised solutions that allowed us to act swiftly during an incident response. We will dive into practical strategies for turning chaos into order when time is critical.
+    * Implementing a minimal viable architecture and governance
+    
+    Speed was of the essence. We'll discuss the tools, techniques, and improvised solutions that allowed us to act swiftly during an incident response. We will dive into practical strategies for turning chaos into order when time is critical.
   duration: 20
 - name: Sofia Lindqvist 
   image: sofia
