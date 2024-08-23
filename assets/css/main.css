@@ -249,4 +249,24 @@ header nav a.highlight:hover {
     width: 90px;
   }
   
+  .program {
+    padding-left: 1em;
+    padding-right: 0.5em;
+  }
+  .program .talks {
+    margin: 0;
+    padding: 0;
+  }
+
+  .program .speaker {
+    flex-direction: column;
+  }
+  .program .speaker {
+    display: block;
+  }
+  .program .speaker img {
+    float: right;
+    margin-left: 1em;
+  }
+  
 }
