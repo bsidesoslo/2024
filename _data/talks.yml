@@ -1,0 +1,86 @@
+- name: TBA
+  image:
+  bio:
+  title: "Keynote"
+  abstract: 
+  duration: 45
+- name: Stian Kristoffersen 
+  image: stian
+  bio: 'Stian is a Lead Security Engineer at Telenor where he works on Software Supply Chain Security. He has more than 10 years of experience as a security and software engineer. Previous BSides Oslo talks: “Unexpected Ways to Distribute Python Packages” (2023), “Practical Kubernetes Security at Scale” (2022), and “Dependency Confusion Deep Dive” (2021).'
+  title: End-to-end Supply Chain Integrity
+  abstract: | 
+    Software Supply Chain Security is an area in active development. A number of tools and standards have emerged in the last few years, including Sigstore [1], SLSA [2], in-toto [3], and TUF [4]. In this talk we’ll focus on achieving integrity from source code being produced to a finished package being consumed.
+    
+    We’ll introduce the existing concepts and tools and show how they can be used to secure a project we plan to open source. We’ll look at how they are being used to improve integrity in projects like NPM and Homebrew. We’ll then propose some new concepts and tools to fill in a few of the remaining gaps around source integrity and key distribution. 
+    
+    gitverify is a new tool to verify the integrity of Git repositories, including Git signatures. It doesn't change how Git works or add state to the repository, but can restrict which of the normal flows are allowed, including which keys are accepted. It can help mitigate rogue/compromised forges as well as accidentally including changes from the wrong users in a PR.
+    
+    gitrelease is a new tool to create an in-toto attestation, tag.link, when tagging a release [5]. The attestation is crafted to add assurance on top of gitverify: including threshold signatures, ordering of releases, and mitigating a subset of rollback, deletion and teleportation attacks [6]. Both gitrelease and gitverify make use of SHA-256 to strengthen Git repositories that use SHA-1 [7]. The tag.link attestation can be stored in both the repository and Sigstore.
+    
+    We’ll wrap things up by proposing a way to do developer key distribution and establish a root of trust for a project. It uses a slightly modified TUF to delegate trust to gitverify and the other components of the release pipeline.
+
+    1. https://sigstore.dev/
+    2. https://slsa.dev/
+    3. https://in-toto.io/
+    4. https://theupdateframework.io/
+    5. https://www.usenix.org/conference/usenixsecurity19/presentation/torres-arias
+    6. https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/torres-arias
+    7. https://git-scm.com/docs/hash-function-transition
+  duration: 45
+- name: Morten Linderud
+  image: morten
+  bio: Morten is a Open-Source developer and maintainer interested in supply-chain security, Linux distributions and user friendly security tools. The past decade he has contributed to projects like Arch Linux, Reproducible Builds, OpenSSF and the "Linux Userspace API" (UAPI) group. When he doesn't spend his free time doing open-source development he works with devops at NRK.
+  title: SSH authentication using user and machine identities
+  abstract: |
+    Strong authentication requires multiple signals: identity claims proves that identity of the person, while device attestation proves possession of a given machine, and device bound keys prevent the key from being stolen.
+    In this presentation we will take a look at how the TPM provides device attestation and device bound keys. We will connect this with identity claims from SSO providers to provide a centrally managed short-lived SSH certificates for users and their devices.
+    This is implemented as an open-source project called "ssh-tpm-ca-authority".
+  duration: 45
+- name: Antonis Terefos
+  image:
+  bio: Antonis Terefos is a malware reverse engineer at Check Point Research with experience in the cyber threat landscape. He passionately reverse-engineers malware and automates malware extraction processes. In his spare time, he enjoys testing malware command and controls, adding depth to his understanding of cyber threats & their operators.
+  title: Tales of a Malspam Campaign from a Threat Actor's Perspective
+  abstract: Have you ever wondered about the "hard work" that threat actors put into executing a malware campaign? This talk explores the intricate efforts, time, and financial resources needed to target thousands of email addresses and infect businesses and organizations globally. We will delve into the behind-the-scenes steps taken by a threat group that targeted over 62,000 business email addresses in the United States and Australia.
+  duration: 20
+- name: Kim Engebretsen
+  image: kim
+  bio: Kim was born and raised in Oslo, but have lived last 7 years in New York. His career started in IT operations in 2002, and has since evolved through many more domains in IT and CyberSecurity. Working for a some of the worlds largest companies with multiple roles of CISO, architect, engineer, manager, implementer and developer, the unique experience creates a wide competency across fields and thus insights that gives an approach to CyberSecurity and DevOps that differs from many of his peers.
+  title: "The Law of Jante (janteloven) in Cybersecurity - Breaking the myth of America's superiority over Norway"
+  abstract: |
+    I have always been taught to think America is where you need to look to for the latest and greatest in technology and cybersecurity.
+    "The biggest successes all comes from America! That is where the big money and bleeding edge tech comes from, and where the most innovative people and workplaces are!"
+    Having lived and worked among New Yorkers and visited over 30 states last 7 years I have realized the important but sometimes subtle differences in IT and cybersecurity between Norway (or even the Nordics) and USA. I want to present some key observations I have made where the Norwegian way really is superior and how we should utilize that advantage in cybersecurity, in addition to balancing it out with some lessons learned on areas we could improve. The main point is none the less that Norway might just be more of a cybersecurity nation than we have allowed ourselves to believe.
+    Lets break the myth that Norwegian cybersec is inferior to American!
+  duration: 20
+- name: Karim El-Melhaoui
+  image: karim
+  bio: Karim is a renowned thought leader within cloud security. At O3 Cyber, he conducts research and development. Karim focuses on our clients in the Financial Industry and Enterprise customers. Karim has a background in building and operating platform services for security on private and public clouds, developing and executing a cyber security strategy for the worldʼs largest sovereign wealth fund.
+  title: "Post-compromise: Uncovering Clouds and Assessing at Lightning Speed"
+  abstract: |
+    In the aftermath of a major cyber incident, we faced an unexpected challenge: uncovering and securing cloud environments scattered across the organization. This talk shares the journey of discovery, assessment, and governance implementation for four different cloud providers during a post-compromise rebuild.
+    We'll detail how we leveraged Python, PowerShell, REST APIs, and even duct tape to:
+    * Identify shadow cloud subscriptions while only having a out of band environment
+    * Rapidly assess security postures across multiple cloud platforms
+    * Implementing a minimal viable architecture and governanceSpeed was of the essence. We'll discuss the tools, techniques, and improvised solutions that allowed us to act swiftly during an incident response. We will dive into practical strategies for turning chaos into order when time is critical.
+  duration: 20
+- name: Sofia Lindqvist 
+  image: sofia
+  bio: Sofia works as a security specialist at Binary Security. She started her career with a PhD in pure maths, followed by three years at Cisco developing one of their networking OSs. She eventually made her way into security testing, which she has been doing for a year and a half.
+  title: "Http Header Injections: a Splitting Headache"
+  abstract: In this talk I will explore so-called HTTP request splitting vulnerabilities, and how they can be used to perform Server-Side Request Forgery (SSRF). I will present the results of looking for such vulnerabilities in open source code bases, and show examples of exploiting them in the wild.
+  duration: 45
+- name: Matteo Malvica
+  image: matteo
+  bio: Matteo Malvica is a senior content developer and security researcher at OffSec focusing on vulnerability research, exploit development, reverse engineering and operating system internals.
+  title: "Chrome Browser Exploitation: from zero to heap sandbox escape"
+  abstract: |
+    This talk is about exploiting the Chrome browser's focusing on the V8 JavaScript JIT engine. We'll start with an introduction to V8, explaining its architecture and common vulnerabilities.
+    We'll then cover the new V8 Heap Sandbox and its different implementations during the past years and how it can be bypassed.
+  duration: 45
+- name: Tom Chothia
+  image: tom
+  bio: Tom Chothia is a Professor of Cyber Security at the University of Birmingham, UK. He leads research projects on industrial control systems security (including rail), analysis of COTS devices, automated firmware analysis, protocol analysis and supply chain security. His past work on the security of EMV, ApplePay, banking apps and pacemakers have all received widespread media coverage. His team's rail work includes a detailed cryptographic analysis of the EuroRadio protocol, the protocols used in Positive Train Control and a proposal for a post quantum secure key management scheme for ERTMS. Tom has carried out rail cyber security projects for NCSC, the UN and the Office of Rail and Road.
+  title: Taking a Look at the Cyber Security of Modern Trains
+  abstract: Modern trains are computer networks on wheels that receive encrypted commands from backend servers. Rail is an important part of critical national infrastructure; many supermarkets rely on rail to stock the shelves with food and many employees need functioning trains to get to work. This makes the cyber security of rail interesting to study. In this talk I'll describe the design of modern train command and control systems, such as the European ERTMS and the American I-ETMS. I'll describe the steps these systems take to ensure cyber security and talk about possible points of vulnerability.
+  duration: 45
+

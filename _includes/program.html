@@ -1,6 +1,23 @@
 <section class="program" id="program"> 
   <h2>Program</h2>
-  <p>The program will be ready soon!<br>
-    The CFP is now closed. Thank you to everyone who submitted!
-  </p>
+  <ul class="talks">
+    {% for talk in site.data.talks %}
+    <li>
+      <details>
+        <summary>{{ talk.title }} - <em>{{ talk.name }}</em></summary>
+        <article>
+          <p>{{ talk.abstract | markdownify  }}</p>
+          <div class="speaker">
+            <img style="background-image: url('/assets/images/speakers/{{ talk.image }}.webp')">
+            <div>
+              <h4>{{ talk.name }}</h4>
+              <p>{{ talk.bio }}</p>
+            </div>
+          </div>
+        </article>
+      </details>
+      
+    </li>
+  {% endfor %}
+</ul>
 </section>
