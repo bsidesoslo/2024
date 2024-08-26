@@ -3,6 +3,11 @@
     - logo: mnemonic.png
       name: Mnemonic
       url: https://www.mnemonic.no/
+- type: Gold
+  sponsors:
+    - logo: defendable.svg
+      name: Defendable
+      url: https://www.defendable.no/
 - type: Silver
   sponsors:
     - logo: gurusoft.png
@@ -19,4 +24,7 @@
     - logo: o3c.png
       name: O3 Cyber
       url: https://o3c.no
+    - logo: binary_security.svg
+      name: Binary Security
+      url: https://www.binarysecurity.no/
 
