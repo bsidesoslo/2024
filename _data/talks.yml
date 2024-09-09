@@ -1,8 +1,13 @@
-- name: TBA
-  image:
-  bio:
+- name: Patricia Aas
+  image: patricia
+  bio: |
+    After writing her Masters thesis around a prototype she built of the Norwegian electoral system in 2005, Patricia started at Opera where she worked on the first of many browsers or browser adjacent products she's contributed to throughout her career. She has decades of experience in C++ and C, which has led her to work on application security in low-level applications, where she today teaches courses for big companies worldwide.
+
+    She's an experienced speaker, who accidentally made a national stir when she started asking questions around election security in Norway back in 2017, indirectly leading to a revamp of the national election law that changed how ballots are counted in Norway starting from that 2017 parliamentary election.
+
+    She has spoken on many topics over the years but tends to speak on three eclectic areas: low-level security and exploitation in native applications, diversity in tech and how the tech community participates in and supports a healthy society.
   title: "Keynote"
-  abstract: 
+  abstract: Description coming...
   duration: 45
 - name: Stian Kristoffersen 
   image: stian
