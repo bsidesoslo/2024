@@ -8,6 +8,9 @@
     - logo: defendable.svg
       name: Defendable
       url: https://www.defendable.no/
+    - logo: telenor.svg
+      name: Telenor
+      url: https://www.telenor.no/
 - type: Silver
   sponsors:
     - logo: gurusoft.png

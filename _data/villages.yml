@@ -1,0 +1,10 @@
+- name: Lockpick village
+  description: |
+    Participants can explore the vulnerabilities of different locking devices, learn techniques to exploit these weaknesses, and practice hands-on with locks of varying difficulty levels.
+    
+    Participants can visit the village during the conference for an introduction to lock picking, along with hands-on practice with a variety of locks.
+    
+    This workshop is hosted by Semaphore.
+- name: Hardware hacking village
+  description: | 
+    TBA. This workshop is hosted by Telenor and Crosspoint Labs
