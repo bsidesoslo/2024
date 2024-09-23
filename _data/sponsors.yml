@@ -22,6 +22,12 @@
     - logo: turtlesec.png
       name: TurtleSec
       url: https://turtlesec.no/
+    - logo: dnv.png
+      name: DNV
+      url: https://dnv.no/
+    - logo: semaphore.png
+      name: Semaphore
+      url: https://semaphore.no/
 - type: Community
   sponsors:
     - logo: o3c.png
