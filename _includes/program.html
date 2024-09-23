@@ -20,4 +20,18 @@
     </li>
   {% endfor %}
 </ul>
+<h2>Villages</h2>
+<ul class="talks">
+  {% for village in site.data.villages %}
+  <li>
+    <details open>
+      <summary>{{ village.name | markdownify }}</summary>
+      <article>
+        <div>{{ village.description }}</div>
+      </article>
+    </details>
+    
+  </li>
+{% endfor %}
+</ul>
 </section>
