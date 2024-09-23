@@ -11,7 +11,7 @@
             <img style="background-image: url('/assets/images/speakers/{{ talk.image }}.webp')">
             <div>
               <h4>{{ talk.name }}</h4>
-              <p>{{ talk.bio }}</p>
+              <p>{{ talk.bio | markdownify }}</p>
             </div>
           </div>
         </article>
@@ -25,9 +25,9 @@
   {% for village in site.data.villages %}
   <li>
     <details open>
-      <summary>{{ village.name | markdownify }}</summary>
+      <summary>{{ village.name }}</summary>
       <article>
-        <div>{{ village.description }}</div>
+        <div>{{ village.description | markdownify }}</div>
       </article>
     </details>
     
