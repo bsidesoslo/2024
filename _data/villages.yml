@@ -4,9 +4,9 @@
     
     Participants can visit the village during the conference for an introduction to lock picking, along with hands-on practice with a variety of locks.
     
-    This village is hosted by Semaphore.
+    This village is hosted by <span class="company">Semaphore</span>.
 - name: Hardware hacking village
   description: |
     At the hardware hacking village, you'll get hands-on with a range of real-world hacking techniques. Try your hand at intercepting HTTPS traffic, messing with malicious USB cables, and cloning NFC access cards. You can also experiment with Faraday sleeves, reveal PIN codes using a thermal camera, and learn how to start hacking security cameras. If you're into hardware, there's even an introduction to fault injection attacks on microcontrollers. Whether you're just curios or already deep into hacking, there's plenty to explore and learn.
     
-    This village is hosted by Telenor and Crosspoint Labs.
+    This village is hosted by <span class="company">Telenor</span> and <span class="company">Crosspoint Labs</span>.

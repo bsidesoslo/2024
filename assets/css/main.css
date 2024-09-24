@@ -235,6 +235,11 @@ header nav a.highlight:hover {
   margin: 1em;
 }
 
+.company {
+  color: #777;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 600px) {
   div.front img {
     max-width: 300px;
