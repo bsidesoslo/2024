@@ -1,4 +1,5 @@
-- name: Patricia Aas
+patricia:
+  name: Patricia Aas
   image: patricia
   bio: |
     After writing her Masters thesis around a prototype she built of the Norwegian electoral system in 2005, Patricia started at Opera where she worked on the first of many browsers or browser adjacent products she's contributed to throughout her career. She has decades of experience in C++ and C, which has led her to work on application security in low-level applications, where she today teaches courses for big companies worldwide.
@@ -9,7 +10,8 @@
   title: "Keynote"
   abstract: Description coming...
   duration: 45
-- name: Stian Kristoffersen 
+stian:
+  name: Stian Kristoffersen 
   image: stian
   bio: 'Stian is a Lead Security Engineer at Telenor where he works on Software Supply Chain Security. He has more than 10 years of experience as a security and software engineer. Previous BSides Oslo talks: “Unexpected Ways to Distribute Python Packages” (2023), “Practical Kubernetes Security at Scale” (2022), and “Dependency Confusion Deep Dive” (2021).'
   title: End-to-end Supply Chain Integrity
@@ -32,7 +34,8 @@
     6. https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/torres-arias
     7. https://git-scm.com/docs/hash-function-transition
   duration: 45
-- name: Morten Linderud
+morten:
+  name: Morten Linderud
   image: morten
   bio: Morten is a Open-Source developer and maintainer interested in supply-chain security, Linux distributions and user friendly security tools. The past decade he has contributed to projects like Arch Linux, Reproducible Builds, OpenSSF and the "Linux Userspace API" (UAPI) group. When he doesn't spend his free time doing open-source development he works with devops at NRK.
   title: SSH authentication using user and machine identities
@@ -42,13 +45,15 @@
     In this presentation we will take a look at how the TPM provides device attestation and device bound keys. We will connect this with identity claims from SSO providers to provide a centrally managed short-lived SSH certificates for users and their devices.
     This is implemented as an open-source project called "ssh-tpm-ca-authority".
   duration: 45
-- name: Antonis Terefos
+antonis:
+  name: Antonis Terefos
   image:
   bio: Antonis Terefos is a malware reverse engineer at Check Point Research with experience in the cyber threat landscape. He passionately reverse-engineers malware and automates malware extraction processes. In his spare time, he enjoys testing malware command and controls, adding depth to his understanding of cyber threats & their operators.
   title: Tales of a Malspam Campaign from a Threat Actor's Perspective
   abstract: Have you ever wondered about the "hard work" that threat actors put into executing a malware campaign? This talk explores the intricate efforts, time, and financial resources needed to target thousands of email addresses and infect businesses and organizations globally. We will delve into the behind-the-scenes steps taken by a threat group that targeted over 62,000 business email addresses in the United States and Australia.
   duration: 20
-- name: Kim Engebretsen
+kim:
+  name: Kim Engebretsen
   image: kim
   bio: Kim was born and raised in Oslo, but have lived last 7 years in New York. His career started in IT operations in 2002, and has since evolved through many more domains in IT and CyberSecurity. Working for a some of the worlds largest companies with multiple roles of CISO, architect, engineer, manager, implementer and developer, the unique experience creates a wide competency across fields and thus insights that gives an approach to CyberSecurity and DevOps that differs from many of his peers.
   title: "The Law of Jante (janteloven) in Cybersecurity - Breaking the myth of America's superiority over Norway"
@@ -61,7 +66,8 @@
     
     Lets break the myth that Norwegian cybersec is inferior to American!
   duration: 20
-- name: Karim El-Melhaoui
+karim:
+  name: Karim El-Melhaoui
   image: karim
   bio: Karim is a renowned thought leader within cloud security. At O3 Cyber, he conducts research and development. Karim focuses on our clients in the Financial Industry and Enterprise customers. Karim has a background in building and operating platform services for security on private and public clouds, developing and executing a cyber security strategy for the worldʼs largest sovereign wealth fund.
   title: "Post-compromise: Uncovering Clouds and Assessing at Lightning Speed"
@@ -76,13 +82,15 @@
     
     Speed was of the essence. We'll discuss the tools, techniques, and improvised solutions that allowed us to act swiftly during an incident response. We will dive into practical strategies for turning chaos into order when time is critical.
   duration: 20
-- name: Sofia Lindqvist 
+sofia:
+  name: Sofia Lindqvist 
   image: sofia
   bio: Sofia works as a security specialist at Binary Security. She started her career with a PhD in pure maths, followed by three years at Cisco developing one of their networking OSs. She eventually made her way into security testing, which she has been doing for a year and a half.
   title: "Http Header Injections: a Splitting Headache"
   abstract: In this talk I will explore so-called HTTP request splitting vulnerabilities, and how they can be used to perform Server-Side Request Forgery (SSRF). I will present the results of looking for such vulnerabilities in open source code bases, and show examples of exploiting them in the wild.
   duration: 45
-- name: Matteo Malvica
+matteo:
+  name: Matteo Malvica
   image: matteo
   bio: Matteo Malvica is a senior content developer and security researcher at OffSec focusing on vulnerability research, exploit development, reverse engineering and operating system internals.
   title: "Chrome Browser Exploitation: from zero to heap sandbox escape"
@@ -90,7 +98,8 @@
     This talk is about exploiting the Chrome browser's focusing on the V8 JavaScript JIT engine. We'll start with an introduction to V8, explaining its architecture and common vulnerabilities.
     We'll then cover the new V8 Heap Sandbox and its different implementations during the past years and how it can be bypassed.
   duration: 45
-- name: Tom Chothia
+tom:
+  name: Tom Chothia
   image: tom
   bio: Tom Chothia is a Professor of Cyber Security at the University of Birmingham, UK. He leads research projects on industrial control systems security (including rail), analysis of COTS devices, automated firmware analysis, protocol analysis and supply chain security. His past work on the security of EMV, ApplePay, banking apps and pacemakers have all received widespread media coverage. His team's rail work includes a detailed cryptographic analysis of the EuroRadio protocol, the protocols used in Positive Train Control and a proposal for a post quantum secure key management scheme for ERTMS. Tom has carried out rail cyber security projects for NCSC, the UN and the Office of Rail and Road.
   title: Taking a Look at the Cyber Security of Modern Trains

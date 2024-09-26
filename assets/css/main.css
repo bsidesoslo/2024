@@ -112,6 +112,19 @@ a:hover {
   list-style: none;
   max-width: 1000px;
 }
+.talks li .time {
+  width: 118px;
+  font-variant-numeric: tabular-nums;
+}
+.talks .serviceSession {
+  padding-right: 0.5em;
+  margin-right: 0.5em;
+  padding-left: 1.5em;
+  font-weight: bold;
+  border-top: 1px dashed #999; 
+  border-bottom: 1px dashed #999; 
+  margin-bottom: 1em;
+}
 .talks details {
   margin-bottom: 1em;
 }

@@ -1,10 +1,12 @@
 <section class="program" id="program"> 
   <h2>Program</h2>
   <ul class="talks">
-    {% for talk in site.data.talks %}
+    {% for item in site.data.program %}
     <li>
+     {% if item.talk  %}
+      {% assign talk = site.data.talks[item.talk] %}
       <details>
-        <summary>{{ talk.title }} - <em>{{ talk.name }}</em></summary>
+        <summary><span class="time">{{ item.timeStart }}-{{ item.timeEnd }}</span> - {{ talk.title }} - <em>{{ talk.name }}</em></summary>
         <article>
           <p>{{ talk.abstract | markdownify  }}</p>
           <div class="speaker">
@@ -16,7 +18,9 @@
           </div>
         </article>
       </details>
-      
+      {% else %}
+        <div class="serviceSession"><span class="time">{{ item.timeStart }}-{{ item.timeEnd }}</span> - {{ item.title }}</div>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
