@@ -10,7 +10,11 @@
         <article>
           <p>{{ talk.abstract | markdownify  }}</p>
           <div class="speaker">
+	    {%- if talk.image %}
             <img style="background-image: url('/assets/images/speakers/{{ talk.image }}.webp')">
+	    {%- else %}
+            <img style="background-image: url('#')">
+	    {%- endif %}
             <div>
               <h4>{{ talk.name }}</h4>
               <p>{{ talk.bio | markdownify }}</p>
