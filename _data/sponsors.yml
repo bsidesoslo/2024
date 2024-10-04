@@ -28,6 +28,9 @@
     - logo: semaphore.png
       name: Semaphore
       url: https://semaphore.no/
+    - logo: atea.png
+      name: Atea
+      url: https://atea.no/
 - type: Community
   sponsors:
     - logo: o3c.png
