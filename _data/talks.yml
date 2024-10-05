@@ -1,14 +1,15 @@
-patricia:
-  name: Patricia Aas
-  image: patricia
+hallvard:
+  name: Hallvard Nygård
+  image: hallvard
   bio: |
-    After writing her Masters thesis around a prototype she built of the Norwegian electoral system in 2005, Patricia started at Opera where she worked on the first of many browsers or browser adjacent products she's contributed to throughout her career. She has decades of experience in C++ and C, which has led her to work on application security in low-level applications, where she today teaches courses for big companies worldwide.
+    Hallvard is an architect with Storebrand during the day and is creating a better society in his spare time. Using freedom of information laws, privacy laws and security research he advocates for changes and enlightens the public about what possibilities and weaknesses that are found.
 
-    She's an experienced speaker, who accidentally made a national stir when she started asking questions around election security in Norway back in 2017, indirectly leading to a revamp of the national election law that changed how ballots are counted in Norway starting from that 2017 parliamentary election.
+    He is doing a lot of scraping of public information, including election, laws and public documents. He is running databases and tooling for journalism and is scraping every Norwegian public entity. Some results in Twitter rants, some results in news articles and some results in public complaints, and later changes. Holding companies and the government accountable.
+  title: "Keynote - Exploring the World of Ethical Hacking: From Web Vulnerabilities to Election Security"
+  abstract: |
+    In this talk, Hallvard will dive into the process of identifying and reporting security flaws in publicly available web solutions. Through responsible disclosure, he helps organizations fix vulnerabilities, learning and sharing insights along the way — often with a bit of fun on Twitter or even news articles.
 
-    She has spoken on many topics over the years but tends to speak on three eclectic areas: low-level security and exploitation in native applications, diversity in tech and how the tech community participates in and supports a healthy society.
-  title: "Keynote"
-  abstract: Description coming...
+    He will dive further into election security. Digital systems are integral parts of elections in Norway and elsewhere. Are they secure? Can we audit the systems? Can we audit the Norwegian elections outside digital systems? Should Norway introduce electronic voting machines? Democracy is at stake. As a professional, you should know a thing or two about election security.
   duration: 45
 stian:
   name: Stian Kristoffersen 
