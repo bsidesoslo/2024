@@ -26,9 +26,9 @@
       </details>
       {% else %}
         {% if item.timeStart %}
-        <div class="serviceSession"><time>{{ item.timeStart }}</time> : {{ item.title }}</div>
+        <div class="serviceSession"><time datetime="2024-10-14T{{item.timeStart}}">{{ item.timeStart }}</time> : {{ item.title }}</div>
         {% else %}
-        <div class="serviceSession"><time>{{ item.timeEnd }}</time> : {{ item.title }}</div>
+        <div class="serviceSession"><time datetime="2024-10-14T{{item.timeEnd}}">{{ item.timeEnd }}</time> : {{ item.title }}</div>
         {% endif %}
       {% endif %}
     </li>
