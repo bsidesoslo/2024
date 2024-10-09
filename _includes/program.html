@@ -7,7 +7,7 @@
       {% assign talk = site.data.talks[item.talk] %}
       <details>
         <summary>
-            <time>{{ item.timeStart }}</time> : {{ talk.title }} - <em>{{ talk.name }}</em>
+            <time datetime="2024-10-14T{{item.timeStart}}">{{ item.timeStart }}</time> : {{ talk.title }} - <em>{{ talk.name }}</em>
         </summary>
         <article>
           <p>{{ talk.abstract | markdownify  }}</p>
