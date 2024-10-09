@@ -6,7 +6,9 @@
      {% if item.talk  %}
       {% assign talk = site.data.talks[item.talk] %}
       <details>
-        <summary><span class="time">{{ item.timeStart }}-{{ item.timeEnd }}</span> - {{ talk.title }} - <em>{{ talk.name }}</em></summary>
+        <summary>
+            <time>{{ item.timeStart }}</time> : {{ talk.title }} - <em>{{ talk.name }}</em>
+        </summary>
         <article>
           <p>{{ talk.abstract | markdownify  }}</p>
           <div class="speaker">
@@ -23,7 +25,11 @@
         </article>
       </details>
       {% else %}
-        <div class="serviceSession"><span class="time">{{ item.timeStart }}-{{ item.timeEnd }}</span> - {{ item.title }}</div>
+        {% if item.timeStart %}
+        <div class="serviceSession"><time>{{ item.timeStart }}</time> : {{ item.title }}</div>
+        {% else %}
+        <div class="serviceSession"><time>{{ item.timeEnd }}</time> : {{ item.title }}</div>
+        {% endif %}
       {% endif %}
     </li>
   {% endfor %}

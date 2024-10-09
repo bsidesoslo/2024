@@ -40,6 +40,14 @@
 - timeStart: "16:00"
   timeEnd: "16:20"
   talk: kim
-- timeStart: "16:20"
-  timeEnd: "16:35"
-  title: Closing
+- timeEnd: "16:20"
+  title: Closing note
+- timeEnd: "16:35"
+  title: Bar open at Pokalen
+- timeEnd: "17:45"
+  title: Dinner in Arena (for those who signed up)
+- timeEnd: "21:30"
+  title: Bar closes
+- timeEnd: "22:00"
+  title: Event closed
+

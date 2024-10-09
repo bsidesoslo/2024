@@ -112,9 +112,12 @@ a:hover {
   list-style: none;
   max-width: 1000px;
 }
-.talks li .time {
+.talks li time {
   width: 118px;
   font-variant-numeric: tabular-nums;
+}
+.talks li time .hidden {
+  visibility: hidden;
 }
 .talks .serviceSession {
   padding-right: 0.5em;
